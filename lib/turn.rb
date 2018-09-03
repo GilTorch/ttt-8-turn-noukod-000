@@ -50,6 +50,6 @@ def turn(board)
     user_input=input_to_index(user_input)
     is_move_valid = valid_move?(board,user_input)
   end
-  move(board,user_input)
+  move(board,user_input,"X")
   display_board(board)
 end
